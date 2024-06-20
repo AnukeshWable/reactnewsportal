@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_KEY = '2e17ef1c65abe5bd2232d56ac535d056';
+const API_KEY = '9dae0c054b38028d57e2c8797995b46e';
 
 export const fetchArticles = createAsyncThunk(
   'articles/fetchArticles',
